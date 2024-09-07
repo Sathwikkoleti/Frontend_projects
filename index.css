@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 75px;
+    padding: 0 30px;
+    background-color:#2563eb;
+    /* background-image:linear-gradient( rgba(0,123,123,0.83),rgba(114, 113, 113, 0.98),rgba(0, 123, 123, 0.6)); */
+    
+}
+.img-cont img {
+    width: 160px;
+    height: 55px;
+    padding: 10px;
+}
+
+.search-bar {
+    color: #cbd5e1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 40px;
+    margin: 0px 30px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);;
+}
+
+.search-bar img {
+    position: absolute;
+    left: 10px;
+    padding: 5px;
+}
+
+.search-bar div {
+    margin-left: 10px;
+}
+
+.cities span{
+    margin-left: 55px;
+    cursor: pointer;
+
+}
+.cities img{
+    margin: 0px 5px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.cities, .signin {
+    margin-left: 20px;
+}
+.signin{
+    padding: 10px 20px;
+    background-color: #F84464;
+    border-radius: 5px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+
+.section-2{
+    width: 100%;
+    text-decoration: none;
+    background-color: #60a5fa;
+    display: flex;
+    justify-content: space-between;
+    /* height: 30px; */
+    align-items: center;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.sec2-left{
+    left: 0;
+}
+.sec2-right{
+    right: 0;
+}
+
+
+.section-3{
+    width: 100%;
+    height: 300px;
+    background-color: #dbeafe;
+    position: relative;
+}
+
+.img-container{
+    width: 100%;
+    position: absolute;
+    height: 250px;
+    background-color: #2563eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: url("https://assets-in.bmscdn.com/promotions/cms/creatives/1725273429008_korolava1240x300hyderabad.jpg");
+    /* z-index: 1; */
+}
+
+
+.poster-container{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    background-color: #bfdbfe;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 15px 30px;
+    color: black;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.poster{
+    width: 175px;
+    height: 300px;
+    border-radius: 10px 30px;
+    /* background: url(""); */
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.poster img{
+    width: 175px;
+    height: 300px;
+    border-radius: 15px 30px;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.poster-bar{
+    background-color: #bfdbfe;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.seeall a{
+    margin-left: 65%;;
+    font-size: 14px;
+    color:#F84464;
+}
+
+.useless{
+    width: 95%;
+    height: 90px;
+    background: url("https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png");
+    background-size: contain;
+    border-radius: 25px;
+    /* padding: 30px 15px; */
+    margin:60px 20px;
+    
+}
+.container-mid{
+    background-color: #bfdbfe;
+    height: 175vh;
+}
+
+.event-poster-cont{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background-color: #bfdbfe;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 15px 30px;
+    color: black;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+p{
+    color:black;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 30px 40px;
+}
+
+.event-poster{
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+}
+.event-poster img{
+    width: 175px;
+    height: 175px;
+    border-radius: 15px;
+    object-fit: contain;
+}
+.footer{
+    background-color: #334155;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+
+}
+
+h3{
+    padding:30px;
+    
+}
