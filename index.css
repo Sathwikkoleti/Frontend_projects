@@ -118,10 +118,44 @@ a{
     background-color: #2563eb;
     border-radius: 10px;
     margin-top: 10px;
-    background: url("https://assets-in.bmscdn.com/promotions/cms/creatives/1725273429008_korolava1240x300hyderabad.jpg");
-    /* z-index: 1; */
+    overflow: hidden;
 }
+.slide{
+    width: 100%;
+    position: absolute;
+    height: 250px;
+    /* background-color: #2563eb; */
+    border-radius: 10px;
+    transition: 1s;
+}
+.prev{
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(37,99,235,0.3);
+    z-index: 5;
+    left: 0px;
+    top: 40%;
+    /* background: rgba(37,99,235,0.9),url(images/left-arrow-svgrepo-com.svg); */
+    border-radius: 5px 10px;
+}
+.next{
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(37,99,235,0.3);
+    z-index: 5;
+    right: 0px;
+    top: 40%;
+    border-radius: 5px 10px;
 
+}
+.prev img{
+    height: 20px;
+    background-size: cover;
+}
+.next img{
+    height: 20px;
+    background-size: cover ;
+}
 
 .poster-container{
     display: flex;
@@ -225,4 +259,16 @@ p{
 h3{
     padding:30px;
     
+}
+
+::-webkit-scrollbar-track-piece{
+    width: 15px;
+    background-color: lightslategray;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 20px;
+    width: 18px;
+    margin: auto;
+    background-color: #2563eb;
 }
